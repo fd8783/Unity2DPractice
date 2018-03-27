@@ -1,0 +1,2325 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE sesx>
+<sesx version="1.4">
+
+  <session appBuild="10.1.1.11" appVersion="10.1" audioChannelType="stereo" bitDepth="32" duration="68348" sampleRate="48000">
+    <name>footstepdirt.sesx</name>
+    <tracks>
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="true" visible="true">
+        <trackParameters trackHeight="106" trackHue="-1" trackMinimized="false">
+          <name>轨道 1</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="c9f20758-2b5a-4d3c-a2cc-0c5ad16f5f67" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="2.2908669"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="aebdb1a6-ee69-48b3-ad62-66f1a63f4970" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="afae93db-0a29-4cfb-8607-c2289159e08b" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="77befb34-84fc-43c4-bdb5-081edf6df49b" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="b4e6d6dc-c8f6-457f-a745-88e22f99bdaa" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="bf842db9-049d-4383-97b8-21d5e8963b43" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="3beb2d6e-ed3a-4d59-8de5-f8a0ccfa2f19" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="637031ff-6a0d-4b33-8e21-c8652af6ffd8" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="e3a0794d-d18c-4449-9318-473bdfc1261e" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="95aad9af-33b1-4d0d-9146-a2c7156c4305" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="2b6261e0-fc5b-4861-9d40-6d3e3824c4f2" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="9d079dcc-25dc-4bea-b3ec-a04ae734e8ce" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="6c8a7b67-e689-43b4-bcc5-b3fc59bdceaa" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="82e20ef7-4703-4a41-b57f-f8f0da5c7134" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="7485e437-69a6-49b2-87ba-7496ae4fc869" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="0cc9f62a-6f42-4142-9703-bbd6312b9818" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="031fa920-e088-4bda-be56-d846c9c49853" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="9e1e2545-62f9-45ed-909f-8144c95c2b6d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="6c1083ea-f878-4e05-a255-65e910383340" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="c8b00593-de21-4347-9bdc-f99714c9153a" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="24000" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="未命名 4" offline="false" select="false" sourceInPoint="2491" sourceOutPoint="26491" startPoint="0" zOrder="11">
+          <component componentGuid="6afa05b6-91e0-4058-8bc1-5b039004b90e" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="8a45caa8-eb66-4da2-9204-dac1544a93cf" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="9bb798af-5cec-4abe-86b3-3cb582ce4f81" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="24000" shape="0" startPoint="24000" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+        <trackParameters trackHeight="106" trackHue="100.5643844604492188" trackMinimized="false">
+          <name>轨道 2</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="2b43239c-35d7-493c-8f7b-b7d18159f6bd" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.8620877"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="1e8d5cd1-34db-4cb6-83e1-5e5f5c4a7f26" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="a2edfeba-b557-45f6-8f3d-eab3146b312c" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="7eb8eb21-5f9b-499c-8b08-280d21e46d1d" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="5084b3a1-8d96-4463-a76e-022589149158" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="9f9f788c-1128-477e-a26f-2eafbef6e41b" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="f2f17bfa-492e-4651-92d2-3ceb173c5fff" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="8f3a20f1-8822-4122-8cdb-1994dbf89759" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="e2cd4d9a-2e22-4ce7-a1cd-13aa2ae0fc6c" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="11bf08f0-66e8-4f88-ad7d-61f5cb1661e2" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="278348b8-b304-42e8-9f13-30754e2754f3" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="247a41a5-81cc-44e4-9577-fbc4ac74e11d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="68cf37ab-82fa-4b66-8293-1ee05c19ae76" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="9cb27bab-8f18-4d69-9663-b398680a3e5d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="5ed839c1-2154-473e-afb4-ce21e6c66fa1" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="1dd78554-516c-45cd-bdf2-477d4d987027" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="d05f8284-1e8e-496f-b1fb-b95874617e87" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="a8c73444-553e-455d-a348-7ecdde661eaa" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="a6d8b020-5930-4521-93f5-fd7e5c62df19" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="eadda11b-d170-4dd3-a593-509afc990b63" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="28989" fileID="0" hue="-1" id="0" lockedInTime="false" looped="false" name="未命名 4" offline="false" select="false" sourceInPoint="0" sourceOutPoint="28989" startPoint="0" zOrder="14">
+          <component componentGuid="9c669e7d-57f5-4947-b2ff-50a3d6d5d4ff" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="3df20abf-49d3-4c1e-8c2c-1586be213318" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="20da5cfb-1781-4031-a6b2-dc07a040d16b" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="28989" shape="0" startPoint="28989" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10003" index="3" select="false" visible="true">
+        <trackParameters trackHeight="106" trackHue="20.5852031707763672" trackMinimized="false">
+          <name>轨道 3</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="-1" type="hardwareOutput"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="475299bb-024a-4cf7-a2ee-865f2718e7c6" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.798871"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="b759212b-cf56-4ede-9b4f-1f589caacadf" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="796368a3-f4fb-4824-bda4-c34d330a2779" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="cdeb91be-6298-4289-a1e1-d6ebeda4353d" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="b3d18a05-ae23-4ae3-a8d8-45b0bf4e3906" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="7bbe2cc7-2a6a-4cad-bbd8-81ac9f2e2477" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="35f33d0d-e8d4-4a88-889d-8e3e547bd558" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="88ebb011-2edc-46de-83c5-632b18aa5cce" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="8e4ae246-8941-439c-bd7a-325c89193ce6" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="dfaeeba1-d125-4818-801f-012268313938" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="be3c781b-e324-49d9-8d68-d63568576878" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="13ebf163-1bed-46c1-8c2f-7eb06b32944f" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="b7a689a7-99c0-4aa6-ba58-f26e3e38e7c1" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="4954465e-eee5-468a-8f22-62b684b94aa2" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="ecdeccea-92c4-4d55-a1b5-e1f7a2b5e2f6" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="a320a584-bd04-4bc0-b765-2811235b5c8f" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="3cf4c0e8-4069-4533-9d0d-df1d951b26dc" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="ccd08ac4-d35b-4532-85a5-72bdf43102fe" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="54f6aa06-4ee3-4ec8-9b6e-0e5d5bb4696e" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="3679986c-d857-43ea-a3e3-396311fa2d46" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="28989" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="未命名 3" offline="false" select="false" sourceInPoint="0" sourceOutPoint="22852" startPoint="6137" zOrder="17">
+          <component componentGuid="1715bf01-e1e9-428c-9bc8-301c0a1f61c1" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="b0041a4b-caa4-4d7e-a825-6e34ad1f7aa1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="31316df9-ab6a-45a6-96f5-38baa086ec17" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="22852" shape="18" startPoint="22852" type="log"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10004" index="4" select="false" visible="true">
+        <trackParameters trackHeight="106" trackHue="349.2885446548461914" trackMinimized="false">
+          <name>轨道 4</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="60402b30-9d79-4ba7-90bc-e0c48509e29b" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.798871"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="fbf86a29-e7ec-4b1d-84bc-f4a573be6f78" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b05d9943-d2a2-45cd-a1b0-38f61bdc0305" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="c3204151-f1f2-4875-97e1-968dd1a9393d" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="7f54b365-f42f-439e-ae6c-be0910448796" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="143cd8de-b077-4628-ab2c-2f6ba443f69b" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="7002bd0c-f502-49e4-9fd4-f65d4c3192a7" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="1b344fdc-4cf7-42ba-bb7e-63ddb2d3570e" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="a3f11d5c-5314-480a-ab57-6d935bdcb715" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="f2aaf0cb-0004-4598-b7f5-904e8eab3fb6" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="5582da2b-33b9-4849-8e99-dd9fd3526f8f" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="988f257b-7a39-4288-8180-0cc34293251d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="03977c73-7eaf-4ead-a4e5-b24cfdc641c7" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="cf4f7bc9-6dcf-43f4-947f-e27bdc109ffd" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="f16e5d2b-7dcd-4d9f-85c7-88a8830ae2a6" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="6f6d0499-4d71-4b33-a7e1-36c9bec7c7ac" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="0e1df276-3e4b-4eb5-a9c8-670763065a93" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="df53656b-4fcf-43b8-8fe7-cfa0c0cbb2a8" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="9f0dd42d-ffb0-4ed5-88f5-4174bc961aba" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="90022c06-c779-427b-8129-5f7197b359f0" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="28989" fileID="2" hue="-1" id="0" lockedInTime="false" looped="false" name="未命名 1" offline="false" select="false" sourceInPoint="0" sourceOutPoint="21937" startPoint="7052" zOrder="19">
+          <component componentGuid="f75d05ac-d8f6-4154-aaca-55d87eba51b4" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="5f5017c5-60d6-4347-8693-42ebdbc47038" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="0cdfde4e-6280-4cfb-b755-95b81d99db30" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="21937" shape="0" startPoint="21937" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10005" index="5" select="false" visible="true">
+        <trackParameters trackHeight="106" trackHue="53.3494806289672852" trackMinimized="false">
+          <name>轨道 5</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="54db371a-e125-4cea-b17e-7d696f83c8b6" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1.7378007"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="4de72f1d-4e7d-4e10-8427-7ef726ffe7c4" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="91025c77-52c8-41ed-a235-ae10e1b1dcd8" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="784e8f28-6c7a-4fd6-a7ba-ca252b320f54" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="8e239d47-59ec-41c7-8f13-b162ac3a7caf" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="dc1bbe09-f46b-435e-b2e8-2e9b2beee43e" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="d6ebd151-27b0-4947-b95a-942c66d18eb8" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="085fdc83-4451-47a7-8919-13ddd830796a" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="5cf2bada-3cf9-415f-8ff8-5b27296d39aa" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="391c5251-146f-4200-a71e-9f8f9752f366" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="3b80fc46-3fb8-4810-ab8a-6658980b8742" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="e3928e8f-28c1-4338-a1f0-ee1ae96f28e1" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="e2405215-9ad6-482f-87ee-8195559b97fa" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="b9590fc3-e660-40eb-9359-1150551c6e5a" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="9f76582c-42de-42ed-a43f-0176d3cda10d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="dd9c26f8-0257-4f49-af74-0f26ae75aa79" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="19e0cc2b-f3f9-4087-b18c-653aad308706" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="5a5c120d-a20e-4cf7-8957-2381dfaac0a2" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="d88040dc-a5c0-400a-a846-7bc478534816" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="c8533119-604d-4329-bcf6-cdc363946f0a" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="28989" fileID="3" hue="-1" id="0" lockedInTime="false" looped="false" name="未命名 2" offline="false" select="false" sourceInPoint="0" sourceOutPoint="18359" startPoint="10630" zOrder="21">
+          <component componentGuid="12efed58-8f38-4a2a-8cff-6433bd94507d" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="887044cd-f4f5-4b6a-8e87-c89f9d5421ea" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b6a80b0f-7b39-4df6-b711-d064bdf0a554" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="18359" shape="0" startPoint="18359" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10006" index="6" select="false" visible="true">
+        <trackParameters trackHeight="106" trackHue="277.0218515396118164" trackMinimized="false">
+          <name>轨道 6</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="5a0a7ecf-52f4-47bb-981c-0dc2d3555b31" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="2.0653806"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="e59b01d7-2b63-4884-94cb-c29070763e07" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="14110320-63a3-4af6-abc9-1f71f7c64780" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="b4c33a99-3ca7-45a4-8b0e-509e595679a9" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="cd9703a2-4fa4-4d60-aa60-9a2effd8e7bb" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="d861fdb5-c580-4b3d-ae32-cdb2b97402d5" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="67ff1139-2aa5-4960-afb8-c3a346bc010b" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="dc4ce0d2-f618-4e95-b3aa-42c7a3982a32" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="91778f8e-ae23-411c-b7c2-d6b4e86860fb" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="4808c306-88d4-4707-8582-d35d1478eb35" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="047b89f3-cbec-4b87-96c0-05fd30d332b7" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="cd64385f-152f-4edd-a4e0-59a19e63521d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="04714d41-0c3e-45c4-bed0-d20e3967f140" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="2658023f-7055-44c1-a767-c114eb0f92fe" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="6d5e7cfa-10f1-41e9-8e02-6513ac1b3fe1" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="e773c06e-ae86-492c-8811-c4cd895ec43f" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="052bc13f-12d3-4866-860b-a33e78dbd763" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="deb684e3-5043-4886-8e4c-8b80742c0f54" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="60472177-5b69-49c3-8e9f-712e473b91a9" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="321a9258-54fb-4aaf-aa8e-336e01bbfc2b" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="28800" fileID="1" hue="-1" id="0" lockedInTime="false" looped="false" name="未命名 3" offline="false" select="false" sourceInPoint="0" sourceOutPoint="25229" startPoint="3571" zOrder="24">
+          <component componentGuid="a27dc756-2caf-4696-aeea-d3a2bf82dfee" componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="05882835-ca72-4298-994f-6fe39ae190a1" componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="efe9c432-5c59-43e3-9037-f504989f54ac" componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="25229" shape="0" startPoint="25229" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+            <channel index="1" sourceIndex="1"/>
+          </channelMap>
+        </audioClip>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10007" index="7" select="false" visible="true">
+        <trackParameters trackHeight="106" trackHue="181.4102840423583984" trackMinimized="false">
+          <name>轨道 7</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="48d3ef58-c4db-49d8-9be7-202635184bfc" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="ef9406bf-08bc-4a79-80be-1926b8154238" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="907a715a-0d44-4caf-bb95-84a9f9810705" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="4435a472-0329-43b7-b217-2d2fbb53724f" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="6a93ff43-c326-419d-9358-ed6d49dff575" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="099ec7e6-287d-46f3-9050-fa497b11e03b" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="35c9020e-5634-4b1b-af75-f55015857efa" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="d776c7d1-50a1-45e8-9c2b-1e39a1c5ed4a" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="92745e89-e7d9-44ca-8b32-db6fc7ef25be" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="d1a46f8f-9296-402a-9bff-22140d6cf2e6" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="27c124d8-e76d-45ae-b016-a98127481964" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="fcdb0423-3e6c-4dfb-ae57-98f92810ad72" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="2b4ec6ae-8603-4694-b384-fb71aef586f0" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="8034c392-735e-405c-8e7b-db88030774fe" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="79e9d133-f616-4a65-98d8-4879b8d3d32d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="5b580762-1c5a-40d9-b01c-82dc177f4165" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="18228016-cfc6-4164-851a-5b8bf8eaa43d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="a6eb6f40-f48d-4816-8d37-7f58c039862d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="66ff3ceb-a67a-45bc-aabd-4ca68a54373e" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="7fbbd214-37ad-458c-b051-b73ab39eac32" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10008" index="8" select="false" visible="true">
+        <trackParameters trackHeight="106" trackHue="142.893977165222168" trackMinimized="false">
+          <name>轨道 8</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="91d1c4f6-f42f-431c-88d9-7b427bbec4ee" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="0a4d47bd-548d-4904-a304-a8fdacbc70f5" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="943182ba-51f6-4631-b819-85f5ddc4a122" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="e43cf4a7-be17-4b82-8916-f37e50d1216b" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="b7b47d6e-885b-4e1d-bfd0-01bce7f9f371" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="0bc25747-5ad3-4671-8c59-1bd17b6497d1" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="9ca3e37e-a4ab-4fac-8972-579e4e573e36" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="1d6b3627-8c84-491f-b2c7-f7761d967140" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="ff225b9d-3a3a-41fc-b886-e3c60dd31a05" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="5ae6e7a5-91de-4ba2-a37d-22b71bc371c8" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="6af8d878-05e7-48f2-81b2-843df031a033" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="0ec887fc-b331-45a7-b69c-f1c5e849c0fd" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="5f72c67b-04a3-443c-8852-7d717d17cf41" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="15fd9819-f1b6-40f9-b952-a6b0fe06a540" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="936b7f13-dbcd-4f17-8242-38e32255ec37" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="8388965e-8562-43c7-9386-4325bebe6476" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="030d6cc7-dd67-4e63-b98b-450d04291c64" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="91236296-d0b2-4925-bf0d-4d2e42fccc44" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="013cd008-61fa-44d9-82ba-c4fc330a002a" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="15209e29-0ea5-42c6-8105-e6c38a58d502" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10009" index="9" select="false" visible="true">
+        <trackParameters trackHeight="106" trackHue="133.7772560119628906" trackMinimized="false">
+          <name>轨道 9</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="63190a75-ab0f-4bb1-9b50-313c29712a5e" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="7bf61383-b23c-4898-bb7b-b3f00a0f8d32" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="b218bab1-a969-4e8f-8290-de178d790e72" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="e8f1e5d2-c0b5-40ee-b38e-73a706a42a50" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="c9d44e55-c20a-41ad-916c-7f018b7ea37f" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="d588d720-190e-457d-b1d1-3d66519e937d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="ddf17cb7-99fc-4980-9392-396791939ea2" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="55ab2dde-4589-42cd-a25c-c4dfa06883e7" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="c6152140-f086-4060-b793-7868c4e6e928" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="4318fc14-bcdf-49ce-88be-86ea1e2d78db" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="fd8064dd-9cf1-4bac-b5ca-af7bb93e926b" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="11eb3b0f-2c42-47c8-a825-0cd4d2e9e18d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="cf0cfa39-0d69-4d22-beeb-f4718c1a98c8" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="8f04cae8-7d89-4e22-b695-1506adac3278" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="3594a1c3-fe91-4a1e-83b4-b6b8e5addd5f" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="c3154272-bfef-4708-8b43-5621b1a69916" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="4043522f-b971-4694-b99b-a93629cb5585" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="830d21a7-013e-4416-812e-e52e43fe2dc3" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="b2fc4b8d-cede-4f5b-afb0-57caac024324" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="ea617c31-e1f3-4f9e-bd9e-e8e6678d326f" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+      </audioTrack>
+      <audioTrack automationLaneOpenState="false" id="10010" index="10" select="false" visible="true">
+        <trackParameters trackHeight="106" trackHue="324.1778755187988281" trackMinimized="false">
+          <name>轨道 10</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="false">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="1"/>
+          <component componentGuid="9327f033-854c-43fb-995a-4507921edee9" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="62d9dd25-b3dd-426d-b39d-2b0bc804f398" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="c58331be-9cc9-4530-9544-f1ad67657fbf" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="a8318c78-2817-4750-937c-98a81e7201c6" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="76dc064a-6fb4-4eca-a229-bdd10dced45d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="ae532fb0-f8bd-4ac9-ba9c-3b885b9cc32b" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="6401eba9-4365-4f3e-8044-0047d4c8bd0f" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="ff8acf9d-5d4a-4a1e-803b-60ab9a924cb9" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="c27b3ae9-f5c7-44cc-98a5-dbe662a9008f" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="ecc96692-e729-4e04-aedb-5c13ae6be6ed" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="79bf72ce-a2f8-44bf-a036-875c6a8e01ba" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="cdadacf3-239d-425a-805e-d47d8b7778a1" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="50ddb662-9894-4a17-9d09-939350028edf" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="dabc131f-650a-4039-adeb-08c8eb0fefd7" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="36aa0d94-3ce5-4b51-a606-f71ece8a8cab" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="a6ae904c-a658-48d5-b205-2d0928653e39" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="85c24ae2-6fd6-45a5-aa18-d6a4622b7ee6" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="46096e6e-fef7-4f3b-88a0-fdc07763e109" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="cdffb995-2572-47ef-99a3-4b49d5dbebab" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="271f5115-e4f4-45a6-a000-cf12bd450a6c" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+      </audioTrack>
+      <masterTrack automationLaneOpenState="false" id="10000" index="11" select="false" visible="true">
+        <trackParameters trackHeight="106" trackHue="-1" trackMinimized="false">
+          <name>主</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="1" type="hardwareOutput"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="d63091e1-9d1f-4c7a-9f99-f3fd3f02c860" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="6fa2198b-2968-440f-b292-1a0e9ccda042" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="a3f33e0e-5e36-4ae8-a309-6046cc9f4ea9" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="36f26f23-f302-4d74-baf8-0a253c9ef311" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+      </masterTrack>
+    </tracks>
+    <sessionState ctiPosition="5059" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="5059"/>
+      <viewState horizontalViewDuration="68348" horizontalViewStart="0" trackControlsWidth="224" verticalScrollOffset="0"/>
+      <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
+      <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
+    </sessionState>
+    <xmpMetadata><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160302, 2017/03/02-16:59:38        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
+         <xmp:CreatorTool>Adobe Audition CC 2017.1 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2017-07-20T10:22:19+08:00</xmp:CreateDate>
+         <xmp:MetadataDate>2017-07-20T23:14:03+08:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2017-07-20T23:14:03+08:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:4e6f38c1-3ffe-2142-9ccf-b703d1f32aff</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:98496812-cf85-1e40-b4a9-f609e541e23c</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:98496812-cf85-1e40-b4a9-f609e541e23c</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:98496812-cf85-1e40-b4a9-f609e541e23c</stEvt:instanceID>
+                  <stEvt:when>2017-07-20T10:22:20+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2017.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:271ac465-a061-2943-99c3-37888453aef3</stEvt:instanceID>
+                  <stEvt:when>2017-07-20T23:14:03+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2017.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4e6f38c1-3ffe-2142-9ccf-b703d1f32aff</stEvt:instanceID>
+                  <stEvt:when>2017-07-20T23:14:03+08:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2017.1 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <dc:format>application/xml</dc:format>
+         <xmpDM:Tracks>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Cue</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
+                  <xmpDM:trackType>Track</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpDM:trackName>Subclip Markers</xmpDM:trackName>
+                  <xmpDM:trackType>InOut</xmpDM:trackType>
+                  <xmpDM:frameRate>f48000</xmpDM:frameRate>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpDM:Tracks>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>]]></xmpMetadata>
+    <clipGroups/>
+    <metronome enabled="false" pattern="downBeat subdivision subdivision subdivision " soundSet="sticks">
+      <metronomeTrack automationLaneOpenState="false" id="40000" index="0" select="false" visible="false">
+        <trackParameters trackHeight="77" trackHue="-1" trackMinimized="false">
+          <name>节拍器</name>
+        </trackParameters>
+        <trackAudioParameters audioChannelType="mono" automationMode="1" monitoring="false" recordArmed="false" solo="false" soloSafe="true">
+          <trackOutput outputID="10000" type="trackID"/>
+          <trackInput inputID="-1"/>
+          <component componentGuid="0bd7dce0-df07-4b06-9cd2-d6c79bf9eccd" componentID="Audition.Fader" id="trackFader" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="0.5011872"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+          </component>
+          <component componentGuid="db13d870-7ae6-4f52-bc3f-a3fecdd9e665" componentID="Audition.Mute" id="trackMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentGuid="089d77ab-4b74-4c71-840a-aa7bf930e5ea" componentID="Audition.StereoPanner" id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="声像" parameterValue="0"/>
+          </component>
+          <component componentGuid="7cd3e863-afc8-4659-a5cb-cf7a2a900a93" componentID="Audition.EQ" id="trackEQ" name="EQ" powered="false">
+            <parameter index="0" name="下限频率" parameterValue="0.000834"/>
+            <parameter index="1" name="下限增益" parameterValue="0.5"/>
+            <parameter index="2" name="上限频率" parameterValue="0.7497915"/>
+            <parameter index="3" name="上限频率增益" parameterValue="0.5"/>
+            <parameter index="4" name="EQ 频段 1 中置频率" parameterValue="0.001251"/>
+            <parameter index="5" name="EQ 频段 1 Q" parameterValue="0.0002"/>
+            <parameter index="6" name="EQ 频段 1 增益" parameterValue="0.5"/>
+            <parameter index="7" name="EQ 频段 1 启用" parameterValue="1"/>
+            <parameter index="8" name="EQ 频段 2 中置频率" parameterValue="0.0075063"/>
+            <parameter index="9" name="EQ 频段 2 Q" parameterValue="0.0002"/>
+            <parameter index="10" name="EQ 频段 2 增益" parameterValue="0.5"/>
+            <parameter index="11" name="EQ 频段 2 启用" parameterValue="1"/>
+            <parameter index="12" name="EQ 频段 3 中置频率" parameterValue="0.0325271"/>
+            <parameter index="13" name="EQ 频段 3 Q" parameterValue="0.0002"/>
+            <parameter index="14" name="EQ 频段 3 增益" parameterValue="0.5"/>
+            <parameter index="15" name="EQ 频段 3 启用" parameterValue="1"/>
+            <parameter index="16" name="EQ 频段 4 中置频率" parameterValue="0.1326105"/>
+            <parameter index="17" name="EQ 频段 4 Q" parameterValue="0.0002"/>
+            <parameter index="18" name="EQ 频段 4 增益" parameterValue="0.5"/>
+            <parameter index="19" name="EQ 频段 4 启用" parameterValue="1"/>
+            <parameter index="20" name="EQ 频段 5 中置频率" parameterValue="0.5329441"/>
+            <parameter index="21" name="EQ 频段 5 Q" parameterValue="0.0002"/>
+            <parameter index="22" name="EQ 频段 5 增益" parameterValue="0.5"/>
+            <parameter index="23" name="EQ 频段 5 启用" parameterValue="1"/>
+            <parameter index="24" name="主控增益" parameterValue="0.6666667"/>
+            <parameter index="25" name="恒定 Q" parameterValue="1"/>
+            <parameter index="26" name="下限滤镜顺序" parameterValue="0"/>
+            <parameter index="27" name="上限频率滤镜顺序" parameterValue="0"/>
+            <parameter index="28" name="超静音模式" parameterValue="0"/>
+            <parameter index="29" name="下限启用" parameterValue="1"/>
+            <parameter index="30" name="上限频率启用" parameterValue="1"/>
+            <parameter index="31" name="原始采样率" parameterValue="0.25"/>
+            <parameter index="32" name="EQ 频段 1 频带宽" parameterValue="0.0025"/>
+            <parameter index="33" name="EQ 频段 2 频段宽度" parameterValue="0.01"/>
+            <parameter index="34" name="EQ 频段 3 频段宽度" parameterValue="0.04"/>
+            <parameter index="35" name="EQ 频段 4 频段宽度" parameterValue="0.16"/>
+            <parameter index="36" name="EQ 频段 5 频段宽度" parameterValue="0.64"/>
+            <parameter index="37" name="高通滤波启用" parameterValue="0"/>
+            <parameter index="38" name="高通切除频率" parameterValue="0"/>
+            <parameter index="39" name="高通斜率" parameterValue="0.4"/>
+            <parameter index="40" name="低通滤波启用" parameterValue="0"/>
+            <parameter index="41" name="低通切除频率" parameterValue="0.8331943"/>
+            <parameter index="42" name="低通斜率" parameterValue="0.4"/>
+            <parameter index="43" name="不使用" parameterValue="0"/>
+            <parameter index="44" name="下限图示范围" parameterValue="1"/>
+          </component>
+        </trackAudioParameters>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <sendList>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="0">
+            <component componentGuid="c5b8e146-10d9-48fb-bef7-9cb7f589c223" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="1">
+            <component componentGuid="8510c441-c8bb-413a-a451-00758fd6eff8" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="2">
+            <component componentGuid="d923d9f0-efd2-400c-a60b-a46dea2f959c" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="3">
+            <component componentGuid="d9ce7df8-3cf0-4e73-9d7d-eea8269f0dda" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="4">
+            <component componentGuid="8a8501ab-5643-4175-a5f0-78f9359e2444" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="5">
+            <component componentGuid="80047248-a444-49dc-933e-6f0ca45bcdc2" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="6">
+            <component componentGuid="eae2cc97-8b73-42fc-a260-c9f467c736b2" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="7">
+            <component componentGuid="2fd5d028-035e-42b0-8f78-78a381f8bcfb" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="8">
+            <component componentGuid="1a334060-32ff-499a-9f45-16b803e5e03e" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="9">
+            <component componentGuid="8315a447-a6fc-48d0-82b1-2908510fff81" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="10">
+            <component componentGuid="b1985f08-1f97-4703-aaf5-bc1261f0a35d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="11">
+            <component componentGuid="a5c232b6-be75-4632-bcae-499b2fcf0549" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="12">
+            <component componentGuid="66dbb8d7-8413-4c6d-a7c5-05618400476f" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="13">
+            <component componentGuid="0ee5dc51-4c78-42bb-8b5c-5f17533d08a8" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="14">
+            <component componentGuid="3deb4757-5f53-484c-904a-32cc9324745d" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+          <sendSlot preFader="false" sendOutputID="0" slotIndex="15">
+            <component componentGuid="2ecaf374-1e74-4b4a-bedd-0563f3b0ec0e" id="sendComponent" powered="false">
+              <parameter index="0" name="电源开/关" parameterValue="0"/>
+              <parameter index="1" name="电平" parameterValue="0"/>
+            </component>
+            <component id="sendPan" powered="true"/>
+          </sendSlot>
+        </sendList>
+      </metronomeTrack>
+    </metronome>
+    <properties>
+      <property key="EssentialSoundConfigurations">[{"Guid":"a8b40e3e-13e7-4c1f-b382-96058f1f691d","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"ambience","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-30},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-35}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/LargeRoomAmbience=Large Room Ambience":{"type":"array::float","value":[0.051507499068975449,0.32432401180267334,0.29292899370193481,0.30000001192092896,0.20000000298023224,0,0.14285700023174286,0.40000000596046448,0.5,0.69999998807907104,0.30000001192092896,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideAmbience=Outside Ambience":{"type":"array::float","value":[0.091708503663539886,0.043893899768590927,1,0.5,0.20000000298023224,0.80000001192092896,0.18367299437522888,1,0.5,0,0.80000001192092896,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomAmbience=Room Ambience":{"type":"array::float","value":[0.057788901031017303,0.44944900274276733,0.49494898319244385,0.89999997615814209,0.10000000149011612,0.15000000596046448,0.081632703542709351,0.40000000596046448,0.5,0.80000001192092896,0.20000000298023224,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WindEffect=Wind Effect":{"type":"array::float","value":[0.19597999751567841,0.6896899938583374,0.69696998596191406,0.25,0.5,0.5,0.23469400405883789,0.51999998092651367,0.5,0.75,0.25,0.25125628709793091,0.03125]}}}},"model_stereowidth":{},"model_volume":{"MaxGain":{"type":"float","value":6},"MinGain":{"type":"float","value":-15}}}},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"58dc27a8-6a2a-480c-bd0c-4b45fff346a6","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"dialog","Models":{"model_clarity":{"EQPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/EQPreset/BackgroundVoice=Background Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.5,0.5,0.47827938199043274,0.45772689580917358,0.45778733491897583,0.47946760058403015,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/Intercom=Intercom":{"type":"array::float","value":[0.19432899355888367,0.5,1,0,0.071499988436698914,0.071499988436698914,0.071499988436698914,0.40238627791404724,0.48571401834487915,0.5,0.55155748128890991,0.59602576494216919,0.22246670722961426,0.071499988436698914,0]},"$$$/app/Presets/EssentialSound/EQPreset/LockedInTheTrunk=Locked in the Trunk":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.5,0.5,0.5,0.5,0.5,0.32846158742904663,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OldRadio=Old Radio":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.28442040085792542,0.48315632343292236,0.36498492956161499,0.52853888273239136,0.43511500954627991,0.27154684066772461,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/OnTheTelephone=On the Telephone":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.32864287495613098,0.32864287495613098,0.32864287495613098,0.32864287495613098,0.48571401834487915,0.53071397542953491,0.53071397542953491,0.48357096314430237,0.32864287495613098,0.32864287495613098,0]},"$$$/app/Presets/EssentialSound/EQPreset/OutsideOfTheRoom=Outside of the Room":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.42539370059967041,0.47865453362464905,0.5,0.5,0.48571401834487915,0.40073278546333313,0.25656309723854065,0.15721426904201508,0.15721426904201508,0.15721426904201508,0]},"$$$/app/Presets/EssentialSound/EQPreset/PodcastVoice=Podcast Voice":{"type":"array::float","value":[0.12099699676036835,0.5,0.39240506291389465,0,0.5,0.5,0.5,0.51789408922195435,0.50770342350006104,0.5,0.51789408922195435,0.528114914894104,0.5102812647819519,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostFemale=Subtle Boost (Female)":{"type":"array::float","value":[0.096553400158882141,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.51933407783508301,0.54642897844314575,0.52706766128540039,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/SubtleBoostMale=Subtle Boost (Male)":{"type":"array::float","value":[0.096553400158882141,0.5,0.29113924503326416,0,0.5,0.5,0.5,0.5,0.5,0.5135338306427002,0.54642897844314575,0.51933407783508301,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/ThatPublicRadioSound=That Public Radio Sound":{"type":"array::float","value":[0.12099699676036835,0.5,0.79746836423873901,0,0.15721426904201508,0.15721426904201508,0.15721426904201508,0.36334344744682312,0.49468311667442322,0.5,0.5,0.5,0.5,0.5,0]},"$$$/app/Presets/EssentialSound/EQPreset/VocalPresence=Vocal Presence":{"type":"array::float","value":[0.096553400158882141,0.5,0.32489451766014099,0,0.3572143018245697,0.3572143018245697,0.46428570151329041,0.47857141494750977,0.4763694703578949,0.49570354819297791,0.55924957990646362,0.56523394584655762,0.50859290361404419,0.46992480754852295,0]}}}},"model_loudness":{"DefaultLoudness":{"type":"float","value":-23},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-35}},"model_restoration":{"ReduceNoiseMaxSetting":{"type":"array::float","value":[0.60000002384185791,0.40000000596046448,0.5,0.5,0.2465750128030777,0.60000002384185791,2048,0,0]},"ReduceNoiseMinSetting":{"type":"array::float","value":[0.375,0.20000000298023224,0.60000002384185791,0.5625,0.10958899557590485,0.30000001192092896,512,0,0]},"ReduceRumbleMaxSetting":{"type":"array::float","value":[1,0.084112152457237244,0.375,0,0,0.00083333335351198912,1,0,1,0.0390625,0.00083408987848088145,0,0.0041666668839752674,0.00022554649331141263,0.0046875001862645149,0.75,0.0052083334885537624,0.75,1,0.75,0.0040520834736526012,0.75,0.0042629167437553406,0.00022554649331141263,0.0064883334562182426,0.00022554649331141263,0.006866666954010725,0.75,0.0071704164147377014,0.00022554649331141263,0.01041458360850811,0.00022554649331141263,0.010900000110268593,0.75,0.011407917365431786,0.00022554649331141263,0.015606249682605267,0.00022554649331141263,0.016333334147930145,0.75,0.017094582319259644,0.00022554649331141263,0.026243748143315315,0.00022554649331141263,0.0274666678160429,0.75,0.028746666386723518,0.00022554649331141263,0.041658751666545868,0.00022554649331141263,0.043600000441074371,0.75,0.045631669461727142,0.00022554649331141263,0.062424581497907639,0.00022554649331141263,0.065333336591720581,0.75,0.068377502262592316,0.00022554649331141263,0.10497540980577469,0.00022554649331141263,0.1098666712641716,0.75,0.11498583108186722,0.00022554649331141263,0.16663584113121033,0.00022554649331141263,0.17440000176429749,0.75,0.18252624571323395,0.00022554649331141263,0.91874998807907104,0.00022554649331141263,1,0.00022554649331141263,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceRumbleMinSetting":{"type":"array::float","value":[1,0.084112152457237244,0.375,0,0,0.00083333335351198912,1,0,1,0.0390625,0.00083408987848088145,0.75,0.0041666668839752674,0.75,0.0046875001862645149,0.75,0.0052083334885537624,0.75,1,0.75,0.91874998807907104,0.61237245798110962,1,0.61237245798110962,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]},"ReduceSibilanceMaxSetting":{"type":"array::float","value":[0.5,0.19983997941017151,0.18367347121238708,0.26086956262588501,0.52702701091766357,0,1,0,0,0,0,0.75,1,1,0.40000000596046448]},"ReduceSibilanceMinSetting":{"type":"array::float","value":[0.875,0.19983997941017151,0.18367347121238708,0.19130434095859528,0.25675675272941589,0,1,0,0,0,0,0.75,1,1,0.40000000596046448]}},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/Auditorium=Auditorium":{"type":"array::float","value":[0.013047545216977596,0.15895412862300873,1,0.89999997615814209,0,0.52007436752319336,0.41663265228271484,0.46000000834465027,0.5,0.73000001907348633,0.15999999642372131,0.75376886129379272,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/Church=Church":{"type":"array::float","value":[0.032663315534591675,0.39939939975738525,0.79797977209091187,0.25,0.5,0.5,0.2297959178686142,0.72000002861022949,0.5,0.62999999523162842,0.87999999523162842,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/LargeReflectiveRoom=Large Reflective Room":{"type":"array::float","value":[0.0074449013918638229,0.098988421261310577,0.79890537261962891,0.89999997615814209,0.10000000149011612,0.40110713243484497,0.060284845530986786,0.27522978186607361,0.5,0.73000001907348633,0.31999999284744263,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideTheClub=Outside the Club":{"type":"array::float","value":[0.020615793764591217,0.050136558711528778,0.69696998596191406,0.25,0.094355784356594086,0.22242647409439087,0.1071428582072258,0.2800000011920929,0.5,0.73000001907348633,0.46000000834465027,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/SmallDryRoom=Small Dry Room":{"type":"array::float","value":[0.24623115360736847,0.69975000619888306,0.29292899370193481,0.40000000596046448,0.20000000298023224,0.40000000596046448,0.039285715669393539,0.10000000149011612,0.5,1,0.5,0.75376886129379272,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/ThickenVoice=Thicken Voice":{"type":"array::float","value":[0.19597999751567841,0.23931467533111572,0.69696998596191406,0.25,0.5,0.53999996185302734,0.020408162847161293,0.20945435762405396,0.5,1,0.34999999403953552,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmRoom=Warm Room":{"type":"array::float","value":[0.020100502297282219,0.074074074625968933,0.49494948983192444,0.40000000596046448,0.74960309267044067,0.40000000596046448,0.1239795908331871,0.67000001668930054,0.5,0.85000002384185791,0.56000000238418579,0.25125628709793091,0.03125]},"$$$/app/Presets/EssentialSound/ReverbPreset/WarmVoice=Warm Voice":{"type":"array::float","value":[0.19597989320755005,0.89989989995956421,0,0.40000000596046448,0.20000000298023224,0.40000000596046448,0.10204081982374191,0.090000003576278687,0.5,1,0.30000001192092896,0.25125628709793091,0.03125]}}}},"model_volume":{"MaxGain":{"type":"float","value":6},"MinGain":{"type":"float","value":-15}}}},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"31ba96a6-5d3e-4d89-b1e1-1dbe3c055d0c","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"music","Models":{"model_duration":{},"model_loudness":{"DefaultLoudness":{"type":"float","value":-25},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-35}},"model_volume":{"MaxGain":{"type":"float","value":6},"MinGain":{"type":"float","value":-15}}}},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1},{"Guid":"cea63332-1adc-44a9-a6eb-5490f965859b","Name":"$$$/app/Presets/DefaultPresetName=(Default)","PresetData":{"ModeID":"sfx","Models":{"model_loudness":{"DefaultLoudness":{"type":"float","value":-21},"LoudnessStandard":{"type":"std::uint32_t","value":0},"MaxLoudness":{"type":"float","value":-12},"MinLoudness":{"type":"float","value":-35}},"model_pan":{},"model_soundeffects":{"ReverbPresets":{"type":"tree::any","value":{"$$$/app/Presets/EssentialSound/ReverbPreset/HeavyReverb=Heavy Reverb":{"type":"array::float","value":[0.13316600024700165,0.29929900169372559,1,0.95999997854232788,0.85000002384185791,0.5,0.51530599594116211,0.30000001192092896,0.5,0.5,0.5,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/LightReverb=Light Reverb":{"type":"array::float","value":[0.095477402210235596,0.29929900169372559,0.090909101068973541,1,1,0.80000001192092896,0.22449000179767609,0.60000002384185791,0.5,0.69999998807907104,0.30000001192092896,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/OutsideReverb=Outside Reverb":{"type":"array::float","value":[0.091708503663539886,0.043893899768590927,1,0.5,0.20000000298023224,0.80000001192092896,0.18367299437522888,1,0.5,0,0.80000001192092896,0.25125628709793091,0.0625]},"$$$/app/Presets/EssentialSound/ReverbPreset/RoomReverb=Room Reverb":{"type":"array::float","value":[0.057788901031017303,0.44944900274276733,0.49494898319244385,0.89999997615814209,0.10000000149011612,0.15000000596046448,0.081632703542709351,0.40000000596046448,0.5,0.80000001192092896,0.20000000298023224,0.25125628709793091,0.0625]}}}},"model_volume":{"MaxGain":{"type":"float","value":6},"MinGain":{"type":"float","value":-15}}}},"Type":"1c19ca71-c24c-49cd-8dd5-2cc46018507a","Version":1}]</property>
+    </properties>
+  </session>
+
+  <files>
+    <file absolutePath="C:\Users\Hui\Desktop\Y2528V\Assets\Sound\footstepdirt\backup\未命名 4.wav" id="0" mediaHandler="AmioWav" relativePath="backup/未命名 4.wav"/>
+    <file absolutePath="C:\Users\Hui\Desktop\Y2528V\Assets\Sound\footstepdirt\backup\未命名 3.wav" id="1" mediaHandler="AmioWav" relativePath="backup/未命名 3.wav"/>
+    <file absolutePath="C:\Users\Hui\Desktop\Y2528V\Assets\Sound\footstepdirt\backup\未命名 1.wav" id="2" mediaHandler="AmioWav" relativePath="backup/未命名 1.wav"/>
+    <file absolutePath="C:\Users\Hui\Desktop\Y2528V\Assets\Sound\footstepdirt\backup\未命名 2.wav" id="3" mediaHandler="AmioWav" relativePath="backup/未命名 2.wav"/>
+  </files>
+
+  <audioDevice inputID="032F7215-24CE-4115-8C9A-A3AEA5D38C24" outputID="D8B9A8CF-44C4-48FB-ADA2-79F6CEEE8933">
+    <inputPort id="1" name="默认立体声输入"/>
+    <inputPort id="2" name="[01M] real (Realtek High Definition Audio) 1"/>
+    <inputPort id="3" name="[02M] real (Realtek High Definition Audio) 2"/>
+    <inputPort id="4" name="[01S] real (Realtek High Definition Audio) 1"/>
+    <outputPort id="1" name="默认输出"/>
+    <outputPort id="2" name="[01M] 喇叭 (4- USB PnP Audio Device) 1"/>
+    <outputPort id="3" name="[02M] 喇叭 (4- USB PnP Audio Device) 2"/>
+    <outputPort id="4" name="默认立体声输出"/>
+    <outputPort id="5" name="[01S] 喇叭 (4- USB PnP Audio Device) 1"/>
+    <outputPort id="6" name="默认环绕声输出"/>
+  </audioDevice>
+
+</sesx>
